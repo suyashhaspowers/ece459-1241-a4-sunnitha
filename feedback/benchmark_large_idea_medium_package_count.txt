@@ -1,0 +1,11 @@
+Benchmark 1: target/release/lab4 160 2 10000 6 6
+  Time (mean ± σ):      1.967 s ±  0.102 s    [User: 7.309 s, System: 0.352 s]
+  Range (min … max):    1.754 s …  2.112 s    10 runs
+ 
+Benchmark 2: ../../output/sunnitha/bin/dut 160 2 10000 6 6
+  Time (mean ± σ):     105.9 ms ±  19.5 ms    [User: 227.4 ms, System: 101.1 ms]
+  Range (min … max):    82.1 ms … 171.9 ms    32 runs
+ 
+Summary
+  ../../output/sunnitha/bin/dut 160 2 10000 6 6 ran
+   18.58 ± 3.56 times faster than target/release/lab4 160 2 10000 6 6
